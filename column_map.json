@@ -1,0 +1,169 @@
+{
+  "macro": {
+    "year": [
+      "year",
+      "season_year",
+      "Season",
+      "YEAR"
+    ],
+    "r_t": [
+      "r_t",
+      "r",
+      "10y",
+      "DGS10",
+      "GS10",
+      "r_t_10y_treasury_pct_year_end",
+      "10-Year",
+      "10Y"
+    ],
+    "cpi": [
+      "cpi",
+      "CPI",
+      "CPI-U",
+      "CPIAUCSL",
+      "cpi_u_sa_dec_index_1982_84_100"
+    ],
+    "y_msa": [
+      "y_msa",
+      "income",
+      "personal_income",
+      "SANF806PCPI",
+      "msa_income",
+      "per_capita"
+    ],
+    "unemp": [
+      "unemp",
+      "unemployment",
+      "U_t",
+      "jobless"
+    ]
+  },
+  "games": {
+    "season_year": [
+      "season_year",
+      "year",
+      "Season",
+      "season"
+    ],
+    "game_id": [
+      "game_id",
+      "GameID",
+      "id",
+      "game"
+    ],
+    "is_home": [
+      "is_home",
+      "home",
+      "Home",
+      "H/A"
+    ],
+    "base_price_usd": [
+      "base_price_usd",
+      "price",
+      "ticket_price",
+      "avg_price"
+    ],
+    "attendance_rate": [
+      "attendance_rate",
+      "q",
+      "occupancy",
+      "attendance_pct",
+      "utilization"
+    ],
+    "capacity": [
+      "capacity",
+      "seats",
+      "arena_capacity"
+    ],
+    "weekend": [
+      "weekend",
+      "is_weekend"
+    ],
+    "holiday": [
+      "holiday",
+      "is_holiday"
+    ],
+    "month": [
+      "month",
+      "Month"
+    ],
+    "opp_smv": [
+      "opp_smv",
+      "opponent_star",
+      "opp_star",
+      "opp_popularity"
+    ],
+    "rank_diff": [
+      "rank_diff",
+      "rankdelta",
+      "rank_difference"
+    ]
+  },
+  "roster": {
+    "season_year": [
+      "season_year",
+      "year",
+      "Season"
+    ],
+    "player": [
+      "player",
+      "name",
+      "Player"
+    ],
+    "ws": [
+      "ws",
+      "win_shares",
+      "WS",
+      "performance"
+    ],
+    "salary_musd": [
+      "salary_musd",
+      "salary",
+      "Salary",
+      "cap_hit",
+      "salary_million"
+    ],
+    "fit_lambda": [
+      "fit_lambda",
+      "lambda_fit",
+      "fit"
+    ]
+  },
+  "finance": {
+    "season_year": [
+      "season_year",
+      "year",
+      "Season"
+    ],
+    "revenue_musd": [
+      "revenue_musd",
+      "revenue",
+      "Revenue"
+    ],
+    "operating_cost_musd": [
+      "operating_cost_musd",
+      "operating_cost",
+      "opex",
+      "Operating Expense",
+      "cost"
+    ],
+    "salary_total_musd": [
+      "salary_total_musd",
+      "salary_total",
+      "payroll",
+      "team_salary"
+    ],
+    "tax_paid_musd": [
+      "tax_paid_musd",
+      "tax_paid",
+      "luxury_tax_paid",
+      "Tax Paid"
+    ],
+    "wins": [
+      "wins",
+      "W",
+      "Win",
+      "win_total"
+    ]
+  }
+}

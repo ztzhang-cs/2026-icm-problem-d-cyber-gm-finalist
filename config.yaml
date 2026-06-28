@@ -1,0 +1,62 @@
+project:
+  name: Cyber-GM V3.1 (ICM Problem D)
+  team: Golden State Warriors
+  seasons:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+
+paths:
+  data_zip: ""
+  data_dir: data/processed
+  out_dir: out_v31
+
+schema:
+  macro_table: macro_table.csv
+  games_table: games_table.csv
+  roster_table: roster_table.csv
+  finance_table: finance_table.csv
+
+demand_model:
+  use_statsmodels: true
+  params:
+    alpha: 0.0
+    beta_p: -0.8
+    beta_I: 0.6
+    beta_U: -0.2
+    gamma_weekend: 0.08
+    gamma_holiday: 0.1
+    gamma_opp_smv: 0.02
+    gamma_rankdiff: -0.01
+    gamma_month: 0.0
+
+wacc:
+  tax_rate: 0.21
+  equity_risk_premium: 0.05
+  beta_equity: 1.2
+  credit_spread: 0.02
+  default_debt_ratio: 0.35
+
+ticket:
+  R_aux_usd: 35.0
+  mu: 0.5
+  xi_conv: 0.02
+  clv_fan_usd: 5000.0
+  price_bounds:
+    - 10.0
+    - 800.0
+
+erm:
+  k_limit: 8
+  w_ws: 0.6
+  w_smv: 0.4
+  theta: 1.0
+  alpha: 1.2

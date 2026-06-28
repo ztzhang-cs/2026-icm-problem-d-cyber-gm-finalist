@@ -1,0 +1,18 @@
+category,metric,entity,value,unit,period,notes,source
+"Team finance (USD, estimates)",Annual revenue,Golden State Warriors,880M,USD,Forbes NBA valuations (latest list item in search snippet),"Forbes estimate; revenue (net of revenue sharing, arena debt service) per Forbes valuation snippet.",Forbes snippet
+"Team finance (USD, estimates)",Operating income,Golden State Warriors,409M,USD,Forbes NBA valuations (latest list item in search snippet),Forbes estimate; operating income per Forbes valuation snippet.,Forbes snippet
+"Team finance (USD, estimates)",Gate receipts,Golden State Warriors,170M,USD,Forbes NBA valuations (latest list item in search snippet),Forbes estimate; gate receipts per Forbes valuation snippet.,Forbes snippet
+Fan economy,Instagram followers,@warriors,32.4M,followers,2026/1/30,Instagram shows 32.4M followers (rounded). Exact count fluctuates.,Instagram
+Fan economy,X/Twitter followers,@warriors,8.30M,followers,2026/1/30,Count shown on the X profile page at snapshot time.,X
+Fan economy,Top-selling jersey (player),Stephen Curry,1,rank,First half of 2025-26 season,Curry ranked No.1 in jersey sales list for first half of 2025-26.,NBPA
+Fan economy,Top-selling merchandise (team),Golden State Warriors,2,rank,First half of 2025-26 season,NBPA release lists Lakers No.1 for team merchandise sales (use as league context variable).,NBPA
+Fan economy (proxy),Most-searched NBA player (Google searches),Stephen Curry,2,binary,as reported in NBC Bay Area segment,Proxy replacing Google Trends time series; indicates Curry ranked No.1 in NBA Google searches in the referenced report.,NBC Bay Area
+Venue & tickets,Arena capacity (basketball),Chase Center,18064,seats,current,Capacity for basketball events.,NBA.com / Wikipedia
+Venue & tickets,Average home attendance,Golden State Warriors,18064,fans/game,2023-24 season,"ESPN attendance report for 2024 season lists 18,064 average home attendance.",ESPN
+Venue & tickets,Home attendance as % of capacity,Golden State Warriors,1,ratio,2023-24 season,"Computed as 18,064 / 18,064.",Derived
+Venue & tickets,Avg resale ticket price,Golden State Warriors,345,USD,2024-25 (as cited),Axios cited SeatGeek average resale ticket price for Warriors.,Axios/SeatGeek
+Expansion environment,Expansion draft protection list,NBA expansion draft rule (historical reference),8,players,2004 expansion draft (Bobcats),Each existing team could protect 8 players (historical rule-of-thumb used as proxy).,NBA.com
+Expansion environment,Commissioner says expansion decision expected,NBA,2026,year,statement reported,Multiple outlets reported Adam Silver indicated decision timeline around 2026.,ESPN/NBA.com/Reuters
+Expansion environment,Expansion fee estimate (low),NBA,133M/4000M,USD,media reports,Estimate range from Bloomberg; used as scenario lower bound.,Bloomberg
+Expansion environment,Expansion fee estimate (mid),NBA,167M/5000M,USD,media reports,Midpoint scenario; also aligns with some reports/analyst estimates.,Bloomberg/SBJ
+Expansion environment,Expansion fee estimate (high),NBA,200M/6000M,USD,media reports,Higher-end scenario from Sports Business Journal estimates for Las Vegas.,Sports Business Journal
